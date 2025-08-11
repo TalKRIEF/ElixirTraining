@@ -14,4 +14,6 @@ defmodule Strings do
   end
 end
 
-IO.puts(Strings.uppercase("toto"))
+
+list = ["TK1 ", "TK2 ", 3 , "4" ]
+IO.puts(list)
