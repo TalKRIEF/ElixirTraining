@@ -16,4 +16,7 @@ end
 
 
 list = ["TK1 ", "TK2 ", 3 , "4" ]
+list2 = list
+list = list ++ ["toto"]
+IO.puts(list2)
 IO.puts(list)
