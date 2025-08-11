@@ -8,5 +8,10 @@ defmodule Calcul do
   end
 end
 
-sum = Calcul.sub(5, 6)
-IO.puts(sum)
+defmodule Strings do
+  def uppercase(string) do
+    String.upcase(string)
+  end
+end
+
+IO.puts(Strings.uppercase("toto"))
